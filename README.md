@@ -6,7 +6,9 @@
 #### More customization done for sheetmusic harvester 
 https://github.com/UCLALibrary/sheetmusic-oai/blob/master/dlese-tools-project/src/org/dlese/dpc/oai/harvester/Harvester.java
 line 1219
+
 For data normalization and mods output
+
 Instructions for building the jOAI software v@VERSION@ from source.
 
 Quick instructions: 
