@@ -1,6 +1,7 @@
 
 ### SheetMusic Consortium Harvester digidev.library.ucla.edu lit347v
 
+# Make a copy of web.xml on digidev tomcat7 under oai/, use this when deploying on digidev 
 Instructions for building the jOAI software v@VERSION@ from source.
 
 Quick instructions: 
@@ -37,7 +38,9 @@ Checkout the HEAD branch of each module to get the latest development version.
 Checkout a specific tag (on both modules) for a release version, for example tag
 oai_v3_0_15 corresponds to jOAI version 3.0.15.
 
-
+   # Customization to Harvester for Sheetmusic to support Mods output and date normalization
+ https://github.com/UCLALibrary/sheetmusic-oai/blob/master/dlese-tools-project/src/org/dlese/dpc/oai/harvester/Harvester.java
+ line 1219
 Build instructions:
 
 These instructions assume you will be working in a UNIX command-line environment.
