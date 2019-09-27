@@ -36,16 +36,7 @@ To build the jOAI software from source you must have the following:
 5. Java Platform, Standard Edition v6
 
 
-Obtaining the source code modules:
-
-The required joai-project and dlese-tools-project code modules are available via 
-anonymous CVS at http://sourceforge.net/scm/?type=cvs&group_id=198325
-
-Checkout the HEAD branch of each module to get the latest development version. 
-Checkout a specific tag (on both modules) for a release version, for example tag
-oai_v3_0_15 corresponds to jOAI version 3.0.15.
-
-  
+ 
 Build instructions:
 
 These instructions assume you will be working in a UNIX command-line environment.
