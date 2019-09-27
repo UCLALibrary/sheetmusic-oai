@@ -31,9 +31,9 @@ To build the jOAI software from source you must have the following:
   
 1. joai-project - the jOAI software source code module
 2. dlese-tools-project - the Java libraries source code module
-3. Tomcat version 5.5.x or 6.x (available at http://tomcat.apache.org/)
+3. Tomcat version 7.x (available at http://tomcat.apache.org/)
 4. Ant (available at http://ant.apache.org/)
-5. Java Platform, Standard Edition v5 or v6
+5. Java Platform, Standard Edition v6
 
 
 Obtaining the source code modules:
@@ -45,22 +45,20 @@ Checkout the HEAD branch of each module to get the latest development version.
 Checkout a specific tag (on both modules) for a release version, for example tag
 oai_v3_0_15 corresponds to jOAI version 3.0.15.
 
-   # Customization to Harvester for Sheetmusic to support Mods output and date normalization
- https://github.com/UCLALibrary/sheetmusic-oai/blob/master/dlese-tools-project/src/org/dlese/dpc/oai/harvester/Harvester.java
- line 1219
+  
 Build instructions:
 
 These instructions assume you will be working in a UNIX command-line environment.
 The software can also be built on Windows but specific instructions are not 
 provided here.
 
-1. Obtain the joai-project and dlese-tools-project source directories (see above).
+1. Clone this repo.
 
 2. Obtain and install all the required tools (Java, Ant, Tomcat).
 
 3. Place the joai-project and dlese-tools-project directories into a single directory.
 For example:
- # cd ~/my_build_area
+ # cd ~/sheetmusic-oai
  # ls 
    dlese-tools-project joai-project
 	  
@@ -72,7 +70,7 @@ For example:
 
 6. Edit the build.properties file and set the poperty catalina.home to
 point to your intallation of Tomcat, for example:
-catalina.home = /home/username/dev/apache-tomcat-5.5.12
+catalina.home = /home/username/dev/apache-tomcat-7.x
 
 See the build.xml file located in joai-project for information on the 
 properties settings.
