@@ -1,0 +1,9 @@
+# Ignore the eclipse directories
+
+.settings
+build
+/src
+WebContent
+
+.project
+.classpath
